@@ -12,8 +12,4 @@ public partial class Project
     public DateTime? ProjectStartDate { get; set; }
 
     public DateTime? ProjectEndDate { get; set; }
-
-    public int? EmployeeId { get; set; }
-
-    public virtual Employee? Employee { get; set; }
 }

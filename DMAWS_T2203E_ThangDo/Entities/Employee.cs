@@ -12,6 +12,4 @@ public partial class Employee
     public DateTime? EmployeeDob { get; set; }
 
     public string? EmployeeDepartment { get; set; }
-
-    public virtual ICollection<Project> Projects { get; set; } = new List<Project>();
 }
